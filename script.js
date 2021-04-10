@@ -1,5 +1,9 @@
+var submit=document.getElementById("submit");
+submit.onclick= function (){
+    console.log(inputs())
+};
 function inputs(){
-    var gender=document.getElementById("gender").value;
+    var gender=document.querySelectorAll(".form-select");
     var birth_date=document.getElementById("birth-date").value;
 
     var male=["Kwasi","kwodwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
