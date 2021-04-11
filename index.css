@@ -43,6 +43,20 @@ h1{
 .input-date input{
     margin: 10px;
 }
+.form{
+    margin-bottom: 20px;
+}
+#submit{
+    border-radius: 5px;
+    color:#329e52;
+}
+#submit:hover{
+    color: white;
+    background-color: green;
+}
+#selec{
+    margin-left: 12px;
+}
 footer{
     align-items: center;
     text-align: center;
