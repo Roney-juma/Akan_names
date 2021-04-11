@@ -26,7 +26,7 @@ function main(){
         alert("Your Akan name is: " + female[day]);
     }
     else{
-        alert("Please specify your gender to be given the name")
+        alert("Please specify your gender to get your respective Akan name!!")
     }
 
 
