@@ -21,3 +21,7 @@ h1{
 .intro{
     padding: 20px 50px;
 }
+.names-cal{
+    display: flex;
+    flex-direction: row;
+}
