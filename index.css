@@ -24,6 +24,8 @@ h1{
 .names-cal{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 .biz{
     border: 2px solid rgb(216, 214, 214);
