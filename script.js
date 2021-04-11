@@ -1,13 +1,17 @@
 var submit=document.getElementById("submit");
-submit.onclick= main
+var gender=document.getElementById("selec").value;
+var birth_date=document.getElementById("birth-date").value;
+var male=["Kwasi","kwodwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+var female=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+
+
+submit.onclick= function (){
+    console.log(main());
+}
+
+
 
 function main(){
-    var gender=document.getElementById("selec").value;
-    var birth_date=document.getElementById("birth-date").value;
-
-    var male=["Kwasi","kwodwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-    var female=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-
     var cc=parseInt(birth_date.substr(4,5));
     var mm=parseInt(birth_date.substr(0,1));
     var yy=parseInt(birth_date.substr(6,7));
