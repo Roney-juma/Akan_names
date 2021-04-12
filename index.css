@@ -57,8 +57,14 @@ h1{
     color: white;
     background-color: green;
 }
-#selec{
+#select{
     margin-left: 12px;
+}
+ol li{
+    background-color: rgb(177, 226, 177);
+    height: 50px;
+    padding: 20px;
+    /* padding-right: 20px; */
 }
 footer{
     align-items: center;
