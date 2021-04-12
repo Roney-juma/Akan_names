@@ -1,10 +1,11 @@
 // var submit= document.getElementById("submit");
-var gender= document.getElementById("selec").value;
-var birthString= document.getElementById("birth-date").value;
+
 
 
 
 function submit(){
+    var gender= document.getElementById("select").value;
+    var birthString= document.getElementById("birth-date").value;
     console.log(main(birthString,gender));
 }
 

@@ -19,6 +19,6 @@ To access this project on your local files, you can clone it using these steps
 1. Javascript
 1. Git
 ### Live Site
-View [live]()
+View [live](https://roney-juma.github.io/Akan_names/)
 ### Licence
 This project is under the  [MIT](LICENSE) licence
