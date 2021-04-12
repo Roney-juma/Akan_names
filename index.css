@@ -36,6 +36,7 @@ h1{
     box-shadow: 0 0 5px 5px rgb(185, 252, 185);
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 10px;
 }
 .input-date{
     display: flexbox;
@@ -49,6 +50,8 @@ h1{
 #submit{
     border-radius: 5px;
     color:#329e52;
+    border: 2px solid #C7FFD8;
+    background-color: honeydew;
 }
 #submit:hover{
     color: white;
