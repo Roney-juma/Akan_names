@@ -1,10 +1,10 @@
-var gender= document.getElementById("select").value;
-var birthString= document.getElementById("birth-date").value;
+var gender= prompt("Enter your gender; Male or Female")
+var birthString= prompt("Enter the date of birth. format: mm/dd/yyyy")
 
 
 
 function submit(){
-    console.log(main(birthString,gender));
+    alert(main(birthString,gender));
 }
 
 
